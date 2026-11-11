@@ -612,7 +612,7 @@ dialog.lb{max-height:92vh;overflow:auto}
     const dl=await dlP;
     if(!dl){showCv();return;}
     try{
-      const blob=await (await fetch('cv-sabrine-ouarchane.pdf')).blob();
+      const blob=await (await fetch('CV_Sabrine_Ouarchane_Stage_PFE_Cybersecurite.pdf')).blob();
       await dl.save({filename:'CV_Sabrine_Ouarchane.pdf',data:blob});
     }catch(err){
       const c=err&&err.code;
